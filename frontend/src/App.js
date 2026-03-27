@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import LungSimulatorPage from './pages/LungSimulatorPage';
 import LiquidEther from './components/LiquidEther';
+import HealthRiskPanel from './components/HealthRiskPanel';
+import CitizenReportPanel from './components/CitizenReportPanel';
 
 function App() {
   const [aqiData, setAqiData] = useState(null);
